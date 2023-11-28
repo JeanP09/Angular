@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  background-color: #030830;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'lato', sans-serif;
+}
+
+.contenedor_principal {
+  background-color: #030830;
+  padding: 30px;
+  color: #F5A11D;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+
+.titulo {
+  text-align: center;
+  color: #F5A11D;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.formulario-contenedor {
+  width: 25%;
+  height: 40%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: #F5A11D;
+  top: 0%;
+  bottom: 25%;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  gap: 20px;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #47404d;
+  font-size: 16px;
+}
+
+.input_usuario,
+.input_contrasena {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  border: 2px solid #F5A11D;
+  border-radius: 8px;
+  background-color: rgb(243, 237, 237);
+  color: #333;
+}
+
+.botones {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.parrafoRegister{
+  color: #F5A11D;
+}
+
+.inicio,
+.botonRedireccionRegistro,
+.botonRedireccionRecuperacion {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+
+}
+
+.botonRedireccionRegistro:hover,
+.botonRedireccionRecuperacion:hover {
+  color: #a33232;
+  transition: all 1.5s;
+}
+
+.inicio {
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #F5A11D;
+  margin-bottom: 10px;
+}
+
+.inicio:hover {
+  background-color: red;
+  color: white;
+  transition: 1.5s;
+}
+
+.botonRedireccionRegistro,
+.botonRedireccionRecuperacion {
+  background: none;
+  border: none;
+  color: #F5A11D;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.opciones {
+  margin-top: 8px;
+  text-align: center;
+}
+
+#mensajeInicioSesion {
+  margin-top: 20px;
+  text-align: center;
+  color: #F5A11D;
+  font-size: 14px;
+}

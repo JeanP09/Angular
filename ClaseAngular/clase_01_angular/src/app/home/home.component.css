@@ -1,0 +1,19 @@
+.encabezado{
+    text-align: center;
+    color: #8A2BE2;
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+.tit-datos{
+    margin-top: 70px;
+    margin-left: 130px;
+    font-size: 36px;
+    color: #8A2BE2;
+}
+
+.datos{
+    margin-top: 17px;
+    margin-left: 130px;
+    font-size: 30px;
+}
